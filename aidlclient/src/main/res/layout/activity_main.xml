@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/unBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UnBind"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isLive"
+        android:onClick="onClick"
+        android:id="@+id/isLive"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startService"
+        android:onClick="onClick"
+        android:id="@+id/startService"/>
+
+</LinearLayout>
